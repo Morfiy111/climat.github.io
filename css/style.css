@@ -251,12 +251,6 @@ button.close {
     flex-wrap: wrap;
     margin-bottom: 40px;
 }
-.order-online {
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-    font-style: italic;
-}
 .main-button-block {
     text-align: center;
     margin-bottom: 40px;
