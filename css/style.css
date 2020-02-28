@@ -165,6 +165,7 @@ a:hover {
     padding: 5px 6px 5px 10px;
     border-radius: 50px 0 0 50px;
     border: 2px solid #fff;
+    border-right: none;
 }
 #cart a {
     color: #fff;
@@ -260,6 +261,35 @@ button.close {
     font-family: 'Noto Serif', sans-serif;
     font-size: 20px;
 }
+.footer-page-block {
+    padding: 40px 0;
+    background-color: #00bcff;
+}
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.footer-logo {
+    width: 260px;
+}
+.footer-links a {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+.header-logo img, .footer-logo img {
+    width: 100%;
+}
+.footer-copyright {
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+.footer-copyright a {
+    color: #fff;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
@@ -279,6 +309,13 @@ button.close {
     }
     .main-goods-item {
         width: 48%;
+    }
+    .footer-flex {
+        flex-wrap: wrap;
+    }
+    .footer-links {
+        width: 46%;
+        margin-bottom: 15px;
     }
 }
 @media (max-width: 767px) {
@@ -322,6 +359,13 @@ button.close {
         width: 76%;
     }
     .header-search-block input {
+        width: 100%;
+    }
+    .footer-logo {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer-links {
         width: 100%;
     }
 }
