@@ -264,6 +264,9 @@ button.close {
     .header-logo-block {
         width: 50%;
     }
+    .main-goods-item {
+        width: 48%;
+    }
 }
 @media (max-width: 767px) {
     .navbar-default .navbar-toggle {
@@ -289,6 +292,9 @@ button.close {
     .navbar-toggle.active .icon-bar:nth-of-type(3) {
         top: -6px;
         transform: rotate(-45deg);
+    }
+    .main-goods-item {
+        width: 100%;
     }
 }
 @media (max-width: 500px) {
