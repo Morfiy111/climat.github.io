@@ -124,6 +124,33 @@ a:hover {
     flex-direction: column;
     justify-content: center;
 }
+.title-block-hidden {
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.main-title {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+.title-block-hidden:before, .title-block-hidden:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 2px;
+    position: relative;
+    background-color: #ff7d0c;
+}
+.title-block-hidden:before {
+    margin-left: -100%;
+    left: -14px;
+}
+.title-block-hidden:after {
+    margin-right: -100%;
+    right: -14px;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
