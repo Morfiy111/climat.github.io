@@ -297,6 +297,9 @@ button.close {
 .owl-carousel2 {
     margin-bottom: 40px;
 }
+.mini-title {
+    margin-bottom: 30px;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
