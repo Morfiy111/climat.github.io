@@ -264,6 +264,7 @@ button.close {
 .footer-page-block {
     padding: 40px 0;
     background-color: #00bcff;
+    margin-top: 40px;
 }
 .footer-flex {
     display: flex;
@@ -289,6 +290,12 @@ button.close {
 }
 .footer-copyright a {
     color: #fff;
+}
+.brends-item {
+    padding: 10px;
+}
+.owl-carousel2 {
+    margin-bottom: 40px;
 }
 @media (min-width: 768px) {
     .navbar-nav {
