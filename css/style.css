@@ -187,8 +187,11 @@ a:hover {
     text-align: right;
 }
 .main-goods-item {
-    width: 31%;
+    width: 32%;
     margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #00bcff;
+    border-radius: 4px;
 }
 .main-goods-image {
     margin-bottom: 10px;
@@ -246,6 +249,12 @@ button.close {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+.order-online {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
 }
 @media (min-width: 768px) {
     .navbar-nav {
