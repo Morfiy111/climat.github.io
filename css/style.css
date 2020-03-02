@@ -378,6 +378,26 @@ input[type=checkbox]:checked + .box::before {
 .catalog-filter {
     margin-right: 20px;
 }
+.ditto_currentpage {
+    color: #00bcff;
+    background-color: #fff;
+    border: 1px solid #00bcff;
+    padding: 5px 10px;
+    margin-right: 2px;
+    border-radius: 4px;
+}
+.ditto_page {
+    padding: 4.5px 10px;
+    color: #ffffff;
+    background-color: #00bcff;
+    text-decoration: none;
+    border: 1px solid #00bcff;
+    border-radius: 4px;
+}
+.ditto_page:hover {
+    background-color: #fff;
+    color: #00bcff;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
