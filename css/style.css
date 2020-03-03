@@ -405,6 +405,11 @@ input[type=checkbox]:checked + .box::before {
         width: 100%;
     }
 }
+@media(max-width: 1199px) {
+    .catalog-button {
+        font-size: 14px;
+    }
+}
 @media (max-width: 991px) {
     .header-logo-block img {
         width: 260px;
@@ -424,6 +429,9 @@ input[type=checkbox]:checked + .box::before {
     .footer-links {
         width: 46%;
         margin-bottom: 15px;
+    }
+    .goods-block-flex-catalog .main-goods-item {
+        width: 100%;
     }
 }
 @media (max-width: 767px) {
@@ -455,6 +463,14 @@ input[type=checkbox]:checked + .box::before {
         width: 100%;
     }
 }
+@media (max-width: 600px) {
+    .catalog-page-flex {
+        flex-direction: column;
+    }
+    .catalog-filter {
+        margin-right: 0;
+    }
+}
 @media (max-width: 500px) {
     .header-logo-block img {
         width: 100%;
@@ -475,5 +491,8 @@ input[type=checkbox]:checked + .box::before {
     }
     .footer-links {
         width: 100%;
+    }
+    .catalog-button {
+        padding: 5px 5px;
     }
 }
