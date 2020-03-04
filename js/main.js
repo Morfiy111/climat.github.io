@@ -47,10 +47,10 @@ owl.owlCarousel({
 
 jQuery(function($) {
     $(window).scroll(function(){
-        if($(this).scrollTop()>390){
+        if($(this).scrollTop()>170){
             $('.blue-line-menu').addClass('fixed');
         }
-        else if ($(this).scrollTop()<390){
+        else if ($(this).scrollTop()<170){
             $('.blue-line-menu').removeClass('fixed');
         }
     });
