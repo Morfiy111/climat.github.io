@@ -529,6 +529,31 @@ input[type=checkbox]:checked + .box::before {
 .delivery-block-page p, .delivery-block-page h3 {
     position: relative;
 }
+.contact-block {
+    display: flex;
+    margin-bottom: 40px;
+}
+.contact-block-address {
+    display: flex;
+    align-items: center;
+}
+.contact-block-address a {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.contact-block-address i {
+    color: #ff7d0c;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+}
+.contact-block-info {
+    width: 50%;
+}
+.contact-block-legal {
+    padding-top: 4px;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
@@ -606,6 +631,17 @@ input[type=checkbox]:checked + .box::before {
     }
     .card-title-number {
         margin-bottom: 15px;
+    }
+    .contact-block {
+        flex-wrap: wrap;
+    }
+    .contact-block-info {
+        width: 100%;
+    }
+    .contact-block-address i {
+        width: auto;
+        margin-right: 10px;
+        text-align: left;
     }
 }
 @media (max-width: 600px) {
