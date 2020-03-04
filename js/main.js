@@ -93,3 +93,10 @@ $('#checkbox-legal').click(function(){
         $('.text-legal-entity').hide(100);
     }
 });
+$('#checkbox-montage').click(function(){
+    if ($(this).is(':checked')){
+        $('.text-montage').show(100);
+    } else {
+        $('.text-montage').hide(100);
+    }
+});

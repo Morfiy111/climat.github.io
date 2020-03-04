@@ -466,7 +466,7 @@ input[type=checkbox]:checked + .box::before {
     margin-bottom: 40px;
 }
 .cart-sub-title {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .prise-sum-total {
     text-align: right;
@@ -486,9 +486,29 @@ input[type=checkbox]:checked + .box::before {
     border: 1px solid rgba(122, 122, 122, 0.25);
     border-radius: 2px;
 }
-.text-legal-entity {
+.text-legal-entity, .text-montage {
     display: none;
     margin: 20px 0;
+}
+.radio-item-cart {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #c2c2c2;
+    align-items: center;
+}
+.radio-cart-block {
+    margin-bottom: 20px;
+}
+.textarea-block-cart textarea {
+    border: 1px solid rgba(122, 122, 122, 0.25);
+    border-radius: 2px;
+    width: 100%;
+}
+.textarea-block-cart {
+    margin-bottom: 20px;
+}
+.subscribe-notice {
+    text-align: center;
 }
 @media (min-width: 768px) {
     .navbar-nav {
@@ -565,6 +585,9 @@ input[type=checkbox]:checked + .box::before {
         text-align: center;
         margin-bottom: 10px;
     }
+    .card-title-number {
+        margin-bottom: 15px;
+    }
 }
 @media (max-width: 600px) {
     .catalog-page-flex {
@@ -572,6 +595,12 @@ input[type=checkbox]:checked + .box::before {
     }
     .catalog-filter {
         margin-right: 0;
+    }
+    .cart-forms-user {
+        flex-direction: column;
+    }
+    .input-cart-block {
+        width: 100%;
     }
 }
 @media (max-width: 500px) {
