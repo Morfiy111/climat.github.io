@@ -510,6 +510,25 @@ input[type=checkbox]:checked + .box::before {
 .subscribe-notice {
     text-align: center;
 }
+.delivery-block-page {
+    margin-bottom: 20px;
+    background-image: url("../images/back.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    padding: 20px;
+    position: relative;
+}
+.white-overlay {
+    top: 0;
+    right: 0;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+}
+.delivery-block-page p, .delivery-block-page h3 {
+    position: relative;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
