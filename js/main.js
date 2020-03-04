@@ -85,3 +85,11 @@ $('.plus').click(function (event) {
 
     return false;
 });
+
+$('#checkbox-legal').click(function(){
+    if ($(this).is(':checked')){
+        $('.text-legal-entity').show(100);
+    } else {
+        $('.text-legal-entity').hide(100);
+    }
+});

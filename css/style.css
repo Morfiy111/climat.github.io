@@ -407,9 +407,6 @@ input[type=checkbox]:checked + .box::before {
     font-weight: bold;
     margin-bottom: 20px;
 }
-.card-title-name {
-    width: 27%;
-}
 .card-title-number {
     width: 160px;
 }
@@ -432,7 +429,6 @@ input[type=checkbox]:checked + .box::before {
 }
 .card-title-name {
     width: 20%;
-    font-size: 16px;
 }
 .minus, .plus {
     height: 25px;
@@ -471,6 +467,28 @@ input[type=checkbox]:checked + .box::before {
 }
 .cart-sub-title {
     margin-bottom: 40px;
+}
+.prise-sum-total {
+    text-align: right;
+    font-weight: bold;
+}
+.cart-forms-user {
+    display: flex;
+    justify-content: space-between;
+}
+.input-cart-block {
+    width: 31%;
+}
+.cart-forms-user input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border: 1px solid rgba(122, 122, 122, 0.25);
+    border-radius: 2px;
+}
+.text-legal-entity {
+    display: none;
+    margin: 20px 0;
 }
 @media (min-width: 768px) {
     .navbar-nav {
