@@ -217,7 +217,7 @@ a:hover {
     border-radius: 4px;
     font-weight: bold;
 }
-.catalog-button:hover {
+.catalog-button:hover, .catalog-button:focus {
     background-color: #fff;
     color: #ff7d0c;
 }
