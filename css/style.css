@@ -604,6 +604,18 @@ input[type=checkbox]:checked + .box::before {
 .image-choice-sistem img {
     width: 50%;
 }
+.good-item-page {
+    display: flex;
+}
+.good-item-page-img, .good-item-description {
+    width: 50%;
+}
+.good-item-page-img {
+    padding-right: 20px;
+}
+.good-item-page-img img {
+    width: 100%;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
