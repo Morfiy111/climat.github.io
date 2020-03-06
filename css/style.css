@@ -590,6 +590,20 @@ input[type=checkbox]:checked + .box::before {
 .montage-flex-icon img {
     width: 100px;
 }
+.table-choice {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.table-choice td {
+    padding: 7px;
+}
+.image-choice-sistem {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.image-choice-sistem img {
+    width: 50%;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
@@ -682,6 +696,9 @@ input[type=checkbox]:checked + .box::before {
     .montage-block-page {
         flex-direction: column;
         background-size: cover;
+    }
+    .image-choice-sistem img {
+        width: 100%;
     }
 }
 @media (max-width: 600px) {
