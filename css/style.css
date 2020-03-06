@@ -343,7 +343,7 @@ button.close {
     display: none;
 }
 .box-label {
-    display: inline-block;
+    display: block;
     margin: 5px;
     cursor: pointer;
     font-weight: normal;
