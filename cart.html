@@ -180,17 +180,17 @@
     <div class="radio-cart-block">
         <div class="radio-item-cart">
             <div class="radio">
-                <label><input type="radio" name="optradio" checked>Самовывоз</label>
+                <label><input type="radio" name="optradio" checked onChange="Selected(this)" value="none">Самовывоз</label>
             </div>
             <div class="radio-item-title">Бесплатно</div>
         </div>
         <div class="radio-item-cart">
             <div class="radio">
-                <label><input type="radio" name="optradio" id="delivery-radio">Доставка по Курску</label>
+                <label><input type="radio" name="optradio" value="Open" onChange="Selected(this)">Доставка по Курску</label>
             </div>
             <div class="radio-item-title">300 <i class="fa fa-rub" aria-hidden="true"></i></div>
         </div>
-        <div class="inputs-delivery">
+        <div id="inputs-delivery">
             <h3>Укажите адрес доставки</h3>
             <div class="input-cart-delivery">
                 <div class="input-cart-block-title">Укажите город, улицу, дом, подъезд, квартиру</div>

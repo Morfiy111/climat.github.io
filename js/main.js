@@ -101,10 +101,11 @@ $('#checkbox-montage').click(function(){
     }
 });
 
-$('#delivery-radio').click(function(){
-    if ($(this).is(':checked')){
-        $('.inputs-delivery').show(100);
+function Selected(a) {
+    var label = a.value;
+    if (label=="Open") {
+        document.getElementById("inputs-delivery").style.display='block';
     } else {
-        $('.inputs-delivery').hide(100);
+        document.getElementById("inputs-delivery").style.display='none';
     }
-});
+}
