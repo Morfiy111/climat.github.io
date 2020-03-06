@@ -712,6 +712,15 @@ input[type=checkbox]:checked + .box::before {
     .image-choice-sistem img {
         width: 100%;
     }
+    .good-item-page {
+        flex-wrap: wrap;
+    }
+    .good-item-page-img, .good-item-description {
+        width: 100%;
+    }
+    .good-item-page-img {
+        margin-bottom: 20px;
+    }
 }
 @media (max-width: 600px) {
     .catalog-page-flex {
