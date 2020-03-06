@@ -100,3 +100,11 @@ $('#checkbox-montage').click(function(){
         $('.text-montage').hide(100);
     }
 });
+
+$('#delivery-radio').click(function(){
+    if ($(this).is(':checked')){
+        $('.inputs-delivery').show(100);
+    } else {
+        $('.inputs-delivery').hide(100);
+    }
+});

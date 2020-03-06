@@ -619,6 +619,17 @@ input[type=checkbox]:checked + .box::before {
 .file-block-cart label {
     color: #00bcff;
 }
+.inputs-delivery {
+    display: none;
+}
+.input-cart-delivery input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border: 1px solid rgba(122, 122, 122, 0.25);
+    border-radius: 2px;
+    margin-top: 10px;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
